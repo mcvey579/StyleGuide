@@ -1,0 +1,201 @@
+* { 
+  box-sizing: border-box; 
+}
+
+* { 
+  margin: 0; 
+  padding: 0; 
+}
+
+
+@font-face { font-family: 'IVparagraph';
+  src: url("Inter-VariableFont_slnt\,wght.ttf");
+}
+@font-face { font-family: 'JFsubheading';
+  src: url("JosefinSans-VariableFont_wght.ttf");
+}
+@font-face { font-family: 'MWmainheading';
+  src: url("Merriweather-Regular.ttf");
+}
+
+
+
+body{
+  color: #D4C9CD;
+  background: url("./images/67monaco.jpg");
+  background-color: #000000b6;
+background-blend-mode: multiply;
+padding: 1%;
+  
+
+  background-size: 100%;
+  background-position: 100%;
+}
+
+
+
+h1{
+  text-align: center;
+  margin: 30px;
+  font-family: "MWmainheading";
+  font-weight: 700;
+  font-size: 50px;
+}
+
+h2{
+  font-family: 'JFsubheading';
+  font-weight: 400;
+  font-size: 27px;
+  text-align: left;
+  margin: 20px 0;
+}
+
+
+
+#color_section{
+  width: 800px;
+  margin: 50px auto;
+  
+}
+
+.color_card{
+  height: 150px;
+  width: 150px;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 3px;
+}
+
+.color_card p{
+  color: #d4c9cd;
+  text-align: center; 
+  margin-top: 160px;
+  font-family: "IVparagraph";
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  line-height: 1.5;
+}
+
+
+#rich_black{
+  background-color: #020202;
+}
+
+#black_coral{
+  background-color: #5c5774;
+}
+
+#ferrari_red{
+  background-color: #EE1F03;
+}
+
+#metallic_yellow{
+  background-color: #FAC809;
+}
+
+#american_silver{
+  background-color: #D4C9CD;
+}
+
+
+
+
+
+
+#font_section{
+  width: 800px;
+  margin: 50px auto;
+}
+
+.font_option{ 
+  position: relative;
+ 
+  width: 240px;
+  height: 230px;
+  text-align: center;
+  line-height: 1.75;
+  font-size: 18px;
+  display: inline-block;
+  margin-left: 20px;
+  color: #020202;
+  background-color: #D4C9CD;
+  border-radius: 10px;
+}
+
+
+
+#MW {
+  font-family: "MWmainheading";
+}
+
+#JF {
+  font-family: "JFsubheading";
+}
+
+#IV {
+  font-family: 'IVparagraph';
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.italic{
+  font-style: italic;
+}
+
+
+
+#text_style{
+  width: 800px;
+  margin: 50px auto;
+}
+
+.txtStyle{ 
+
+  font-family: "IVparagraph";
+  font-weight: bold;
+  font-size: 18px;
+  text-align: left;
+  margin: 1px 10px;
+}
+
+.text_option{ 
+  position: relative;
+  left:35px;
+  width: 230px;
+  height: 144px;
+  text-align: center;
+  line-height: 1.75;
+  font-size: 18px;
+  display: inline-block;
+  margin-left: 30px;
+  color: #020202;
+  background-color: #d4c9cd;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+
+.text_characteristics{ 
+  position: relative;
+  left: 40px;
+  font-family: "IVparagraph";
+  font-size: 18;
+  line-height: 1.5;
+  height: 110px;
+  width: 600px;
+  padding-left: 30px;
+  border-radius: 10px;
+  background-color: #d4c9cd;
+  color: #020202;
+}
+
+footer {
+  text-align: center;
+  font-family: "IVparagraph";
+  color:#D4C9CD;
+  background-color: #5c577479;
+}
+
+
+
